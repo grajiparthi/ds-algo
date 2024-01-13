@@ -1,0 +1,22 @@
+./target
+./test output
+./test-output
+./allure-results
+./test-output-thread
+./target/classes
+./target/classes/*
+./target/classes/Factory
+./target/classes/Factory/*
+./target/test-classes
+./target/test-classes
+./target/test-classes/*
+./target/classes/META-INF/*
+./target/test-classes/*
+./test output
+./test output/*
+./test-output
+./test-output/*
+# Ignore deleted files
+*
+
+

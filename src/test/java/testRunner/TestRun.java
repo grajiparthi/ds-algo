@@ -10,7 +10,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions
 		(
 				
-			features = "src/test/resources/features/DS-Algo-Graph.feature" ,
+			features = "src/test/resources/features" ,
 			glue = {"stepdefinition" , "MyHooks" } ,
 			dryRun = false ,
 			monochrome = true ,
@@ -18,7 +18,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 			//plugin = {"pretty" , "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 			 //plugin = {"json:target/cucumber/report.json", "html:target/cucumber/report.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 			
-			plugin = {"pretty",
+			plugin = {"pretty", "json:target/cucumber/report.json", "html:target/cucumber/report.html" ,
 					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",	
 					"timeline:test-output-thread/"
 			}		

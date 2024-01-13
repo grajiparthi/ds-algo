@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"10e0eb1e-8cb9-4872-8558-288158b0e0a5","feature":"Test DS-Algo Graph data structure page","scenario":"Testing Graph Page","start":1705087086631,"group":1,"content":"","tags":"","end":1705087107220,"className":"passed"},{"id":"23270cfc-ed72-46aa-8025-7b2151fa22e4","feature":"Test DS-Algo Graph data structure page","scenario":"Testing Graph Page","start":1705087107226,"group":1,"content":"","tags":"","end":1705087126411,"className":"passed"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"0d11cd5a-46f5-4856-8f46-6a3558728b1f","feature":"Test DS-Algo Graph data structure page","scenario":"Testing Graph Page","start":1705129122447,"group":1,"content":"","tags":"","end":1705129141736,"className":"passed"},{"id":"99a9b9e8-32b4-4c2e-850e-6cc6005f4191","feature":"Test DS-Algo Graph data structure page","scenario":"Testing Graph Page","start":1705129101931,"group":1,"content":"","tags":"","end":1705129122441,"className":"passed"}]);
 CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[#1,main,5,main]"}]);
 });
