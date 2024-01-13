@@ -1,0 +1,4 @@
+[INFO ]2024-01-11 09:37:12.489[main]MyAppLogger-This is an INFO message.
+[WARN ]2024-01-11 09:37:12.523[main]MyAppLogger-This is a WARN message.
+[ERROR]2024-01-11 09:37:12.523[main]MyAppLogger-This is an ERROR message.
+[FATAL]2024-01-11 09:37:12.523[main]MyAppLogger-This is a FATAL message.
