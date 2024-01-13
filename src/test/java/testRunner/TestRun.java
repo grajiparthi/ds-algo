@@ -21,7 +21,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 			plugin = {"pretty", "json:target/cucumber/report.json", "html:target/cucumber/report.html" ,
 					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",	
 					"timeline:test-output-thread/"
-			}		
+			}	
+			
 								
 		)
 
